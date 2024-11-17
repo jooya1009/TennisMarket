@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+#welcomTxt{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card_wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    text-align: center;
+}
+
+.card_img{
+    width: 200px;
+    height: 200px;
+}
+
+.card_title{
+    font-size: 20px;
+}
+
+.card_btn{
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+}

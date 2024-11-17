@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Main </title>
+        <style>
+            h1{
+                text-align: center;
+            }
+
+            #welcomTxt{
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .card_wrap{
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .card{
+                text-align: center;
+            }
+
+            .card_img{
+                width: 200px;
+                height: 200px;
+            }
+
+            .card_title{
+                font-size: 20px;
+            }
+
+            .card_btn{
+                width: 130px;
+                height: 40px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Jooya's Tennis Market</h1>
+        <div id="welcomTxt">
+            Welcome to Jooya's Tennis Market! <br>
+            Enjoy your shopping.
+            <br>
+            <br>
+            <a href="./orderlist.html"> order list </a>
+        </div>
+        <div class="card_wrap">
+            <div class="card">
+                <img class="card_img" src="./img/redRacket.png" alt="빨간색 테니스라켓">
+                <p class="card_title"> Red Racket </p>
+                <input class="card_btn" type="button" value="Order" onclick="location.href='/order?productId=1'">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/blueRacket.png" alt="파란색 테니스라켓">
+                <p class="card_title"> Blue Racket </p>
+                <input class="card_btn" type="button" value="Order" onclick="location.href='/order?productId=2'">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/blackRacket.png" alt="검은색 테니스라켓">
+                <p class="card_title"> Black Racket </p>
+                <input class="card_btn" type="button" value="Order" onclick="location.href='/order?productId=3'">
+            </div>
+        </div>
+    </body>
+</html>
